@@ -1,8 +1,11 @@
 #if FALSE // Support `dotnet run` as a file-based app. See https://learn.microsoft.com/en-us/dotnet/core/sdk/file-based-apps
 #:property PublishAot=false
-#:package System.CommandLine@2.0.3
-#:package Microsoft.Data.SqlClient@6.1.4
-#:package Dapper@2.1.66
+#:package System.CommandLine@2.0.14
+#:package Microsoft.Data.SqlClient@7.1.1
+#:package Microsoft.Data.SqlClient.Extensions.Azure@7.1.1
+// Remove once Microsoft.Data.SqlClient depends on System.Security.Cryptography.Pkcs >= 9.0.21
+#:package System.Security.Cryptography.Pkcs@9.0.21
+#:package Dapper@2.1.89
 #endif
 
 using System.CommandLine;
