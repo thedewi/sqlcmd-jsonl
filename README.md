@@ -4,9 +4,9 @@ Execute SQL queries, yielding JSON Lines.
 
 ## Installation
 
-Currently distributed a file-based `.cs` app. Requires .NET 10.
+Download a [release](../../releases) (single file executable binary).
 
-In bash:
+Alternatively, run from `.cs` source (requires .NET 10):
 
 ```bash
 # Download
